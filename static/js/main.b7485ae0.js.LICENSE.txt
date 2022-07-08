@@ -1,4 +1,10 @@
-/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+/*!
+ * escape-html
+ * Copyright(c) 2012-2013 TJ Holowaychuk
+ * Copyright(c) 2015 Andreas Lubbe
+ * Copyright(c) 2015 Tiancheng "Timothy" Gu
+ * MIT Licensed
+ */
 
 /**
  * @license React
@@ -65,6 +71,12 @@
  * use-sync-external-store-shim/with-selector.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license MUI v5.8.7
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
