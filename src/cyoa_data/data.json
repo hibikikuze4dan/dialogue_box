@@ -1,7 +1,91 @@
 {
   "title": "Dialogue Box",
   "sections": {
-    "opening": {},
+    "opening": {
+      "content": [
+        {
+          "type": "cyoa_text",
+          "text": [
+            "You have woken up, one fateful morning, and decided to get dressed. Not too unusual (I hope). Then, you step out into the world. A jogger is catching their breath just a few steps away, and you decide to strike up conversation. However, the moment you open your mouth, time stops. ",
+            "You attempt to move, and you can't. Nothing but your eyes. You swivel them around, looking for some evidence of what's happening. But the world is equally frozen. No noise, no movement, you can't even smell anything. ",
+            "In front of you are four options. They read:"
+          ],
+          "subcontent": null
+        },
+        {
+          "type": "dialogue",
+          "name": "???",
+          "relationship": 0,
+          "choices": [
+            {
+              "text": "Hi",
+              "points": 1
+            },
+            {
+              "text": "Hello",
+              "points": 1
+            },
+            {
+              "text": "Howdy",
+              "points": 0
+            },
+            {
+              "text": "Nice day for a run eh?",
+              "points": 2
+            }
+          ]
+        },
+        {
+          "type": "cyoa_text",
+          "text": [
+            "You decide to pick the last one. Time resumes, and you hear the sound of your voice, but not coming out of your mouth. It sounds all around you. ",
+            "The jogger looks up and smiles as if nothing was the matter, and replies with, \"You're not wrong!\" ",
+            "You go to respond, to ask him about what the hell just happened. Time freezes once more. This time, you see brand new options."
+          ],
+          "subcontent": null
+        },
+        {
+          "type": "dialogue",
+          "name": "???",
+          "relationship": 2,
+          "choices": [
+            {
+              "text": "Did you see that?",
+              "points": 0
+            },
+            {
+              "text": "What the fuck is happening",
+              "points": -10
+            },
+            {
+              "text": "Name's Anon, what's yours?",
+              "points": 1
+            },
+            {
+              "text": "I've been meaning to get into running again",
+              "points": 3
+            }
+          ]
+        },
+        {
+          "type": "cyoa_text",
+          "text": [
+            "A quick glance up, and you also see that zero next to the question marks is now a green two. You wonder...",
+            "With a thought. you dispel the options. Time resumes, and you don't hear your own voice. The jogger gives you another smile, then sets off down the street.",
+            "You are now in possession of the Dialogue box. But it can do so much more than what you've just seen. For free, it can do these things, but with the points you've got, you can buy even more. You have <span className=\"red\">Twelve points</span> to play with. "
+          ],
+          "subcontent": [
+            [
+              "It can record the names of anyone you speak to, replacing that line of question marks.",
+              "It only fills in the name once they tell it to you, but that will stick. Last names and middle names wil also be added as they're learned. and it can be changed to any nickname you know them by at will. "
+            ],
+            [
+              "If you have a high enough green score, you can ask people to do things. The higher the score, the more you can ask for. However, doing this lowers the green score, and some people have things that also make certain requests harder than othors. For example, asking your sister for a blowjob will have a Family debuff, requiring more points than if you asked your friend for one."
+            ]
+          ]
+        }
+      ]
+    },
     "choice_making": {
       "perks": {
         "title": "Perks",

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 16px;
 }
 
 .App-logo {
@@ -36,4 +37,12 @@
   100% {
     transform: translateY(0px);
   }
+}
+
+.red {
+  color: #da0b00ff;
+}
+
+.point-green {
+  color: #80fe76ff;
 }
