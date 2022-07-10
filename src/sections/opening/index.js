@@ -9,14 +9,13 @@ const { title } = data;
 const { content } = data.sections.opening;
 
 const Opening = () => {
-  console.log(content);
   return (
-    <Grid container spacing={4}>
-      <Grid item xs={12}>
-        <Typography>{title}</Typography>
+    <Grid container spacing={4} sx={{ paddingBottom: "48px" }}>
+      <Grid zeroMinWidth item xs={12}>
+        <Typography variant="h2">{title}</Typography>
       </Grid>
       {content.map(({ type, ...other }, index) => (
-        <Grid item xs={12}>
+        <Grid zeroMinWidth item xs={12}>
           {type === "cyoa_text" ? (
             <CyoaText key={`cyoatext-opening-${index}`} {...other} />
           ) : (

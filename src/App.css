@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  padding: 16px;
+  background-color: #8fe5a6ff;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .App-logo {
@@ -45,4 +47,8 @@
 
 .point-green {
   color: #80fe76ff;
+}
+
+.background-green {
+  background-color: #8fe5a6ff;
 }

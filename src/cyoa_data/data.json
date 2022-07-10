@@ -72,7 +72,7 @@
           "text": [
             "A quick glance up, and you also see that zero next to the question marks is now a green two. You wonder...",
             "With a thought. you dispel the options. Time resumes, and you don't hear your own voice. The jogger gives you another smile, then sets off down the street.",
-            "You are now in possession of the Dialogue box. But it can do so much more than what you've just seen. For free, it can do these things, but with the points you've got, you can buy even more. You have <span className=\"red\">Twelve points</span> to play with. "
+            "You are now in possession of the Dialogue box. But it can do so much more than what you've just seen. For free, it can do these things, but with the points you've got, you can buy even more. You have <span class=\"red\">Twelve points</span> to play with. "
           ],
           "subcontent": [
             [
@@ -95,7 +95,7 @@
             "cost": -1,
             "description": "Normally. those question marks will stay until you learn the name of the person you're speaking to. With this. you will know someone's name the moment you use the dialogue box on them. ",
             "requirements": null,
-            "exclude": null
+            "exclude": "Who?"
           },
           {
             "title": "Emotional",
@@ -122,14 +122,14 @@
             "title": "Stat Boost",
             "cost": -3,
             "description": "You can spend gathered green points to improve how attracted someone is to you. You can only improve one slider at a time, so be smart about where you put these points. This is also not cheap, as jumping from a 5 to a 6 on the friendship slider requires 1.000 green points. ",
-            "requirements": "Interest",
+            "requirements": ["Interest"],
             "exclude": null
           },
           {
             "title": "Bonuses",
             "cost": -5,
             "description": "Each porson now has four to oight options that you can purchase These are one time things that you cen buy to alter something abaut them. Theso are, of courae. bought with green points and not everyone gets the same options. For example, you might have the option to make it so your gym buddy gains muscie at 1.ix speed, or you might bo able to make your coworker a bit taller. These options start relatively cheap. bul as you buy them they get more expensive and mare intricate You might start off adding a few inches to their height with 200 green points and end ap giving them wings with 100,000 green points ",
-            "requirements": "Stat Boost",
+            "requirements": ["Interest", "Stat Boost"],
             "exclude": null
           },
           {
@@ -143,7 +143,7 @@
             "title": "Start Up",
             "cost": -5,
             "description": "Now since you just got the dialogue box, everyone you meet will start at zero green points. This option lets you import your relationships with people you've already talked. Your parents and good friends might start of with a green score in the thousands, for exampte. ",
-            "requirements": "External",
+            "requirements": ["External"],
             "exclude": null
           },
           {
@@ -164,28 +164,33 @@
             "title": "Capacity II",
             "cost": -1,
             "description": "You now have sixteen options instead of eight when talking to someone. ",
-            "requirements": "Capacity I",
+            "requirements": ["Capacity I"],
             "exclude": null
           },
           {
             "title": "Capacity III",
             "cost": -1,
             "description": "You now have thirty-two options instead of sixteen when talking to someone. ",
-            "requirements": "Capacity II",
+            "requirements": ["Capacity I", "Capacity II"],
             "exclude": null
           },
           {
             "title": "Build Your Own",
             "cost": -5,
             "description": "You have thirty-two options each time you open the dialogue box, but you can also create your own sentence out of thin air. This sentence will be accompanied by an appropriate green number. ",
-            "requirements": "Capacity III",
+            "requirements": ["Capacity I", "Capacity II", "Capacity III"],
             "exclude": null
           },
           {
             "title": "Non-Sequitur",
             "cost": -3,
             "description": "You do not have to follow on from what was just said or be even remotely related to what's happening around you. The person you're talking to will not find it weird that the topic changed so drastically, and will happily carry on the conversation, answer the question, or complete the request. (provided their green score is high enough). ",
-            "requirements": "Build Your Own",
+            "requirements": [
+              "Capacity I",
+              "Capacity II",
+              "Capacity III",
+              "Build Your Own"
+            ],
             "exclude": null
           },
           {
@@ -206,7 +211,7 @@
             "title": "Soundboard",
             "cost": -1,
             "description": "Instead of just having sentences pop up as options for you to say, you will also have a few noises you've heard that you can mimic. You can repeat memes flawlessly, or speak small snatches of music. The sound can only be as long as a sentence would take to say. so you're not getting all of bohemian rhapsody out in one go. ",
-            "requirements": "Vocal",
+            "requirements": ["Vocal"],
             "exclude": null
           },
           {
@@ -227,14 +232,14 @@
             "title": "Mobility II",
             "cost": -2,
             "description": "While time is frozen, you are able to move your entire body. but you cannot move more than a meter from where you were. ",
-            "requirements": "Mobility I",
+            "requirements": ["Mobility I"],
             "exclude": null
           },
           {
             "title": "Mobility III",
             "cost": -1,
             "description": "While time is frozen, you are able to move your whole body, but you cannot leave the building you froze time in, or enter any buildings you were not already in. ",
-            "requirements": "Mobility II",
+            "requirements": ["Mobility I", "Mobility II"],
             "exclude": null
           },
           {
@@ -255,7 +260,7 @@
             "title": "Ranger",
             "cost": -2,
             "description": "You don't even need to see the person, only know they exist. ",
-            "requirements": "Psychic",
+            "requirements": ["Psychic"],
             "exclude": null
           },
           {
@@ -269,7 +274,7 @@
             "title": "Nice!",
             "cost": -2,
             "description": "People will no longer want to leave and be unable. Instead. they are cager to talk to you and want to continue talking as long as you do. They may express this in a variety of ways. They might still hate you, but find a way to justify their enjoyment of your conversations. This enthusiasm does not increase your green score with a person. ",
-            "requirements": "NPC",
+            "requirements": ["NPC"],
             "exclude": null
           },
           {
@@ -358,7 +363,7 @@
             "title": "Blind",
             "cost": 2,
             "description": "None of the options display a score. You will have to use your own intuition to figure out if someone will react favourably to your comments. ",
-            "requirements": "Blurred Vision",
+            "requirements": ["Blurred Vision"],
             "exclude": null
           },
           {
@@ -371,7 +376,7 @@
           {
             "title": "Minigame",
             "cost": 3,
-            "description": "Evory timo you try to say somothing. you will have to comptete a minigame. The more green points you would gain, the wordier the response. or the mare youre asking from that person. the harder the minigame will be. If you complete it normally, you get the listed number of green points ar they will do as you've asked If you perform poorly, you gat lewer points or even negative points and they might resist some of what you ask. If you fail you will say nothing If you do superhumanly well. you will get bonus green points and they will go above and beyond what you asked of them. These minigames can range from a rhythm game to solving a rubix cube ",
+            "description": "Evory time you try to say somothing. you will have to comptete a minigame. The more green points you would gain, the wordier the response. or the more youre asking from that person. the harder the minigame will be. If you complete it normally, you get the listed number of green points ar they will do as you've asked If you perform poorly, you get fewer points or even negative points and they might resist some of what you ask. If you fail you will say nothing If you do superhumanly well. you will get bonus green points and they will go above and beyond what you asked of them. These minigames can range from a rhythm game to solving a rubix cube ",
             "requirements": null,
             "exclude": null
           },
@@ -386,7 +391,7 @@
             "title": "Timeout",
             "cost": 1,
             "description": "The longer someone goes without speaking to you, the more green points will fade. This loss is in tandem with how well they remember you, so some may lose green points rapidly while others may cling to your memory for many years. ",
-            "requirements": "Degrade",
+            "requirements": ["Degrade"],
             "exclude": null
           }
         ]

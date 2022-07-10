@@ -13,13 +13,25 @@ const Dialogue = ({ name, relationship, choices }) => {
     <Grid container spacing={2}>
       <Grid item xs={12}>
         <Grid container justifyContent="end" spacing={2}>
-          <Grid item xs={3} md={4}>
-            <Paper>
+          <Grid item xs={6} md={4}>
+            <Paper
+              sx={{
+                backgroundColor: "rgba(114, 182, 133, 1)",
+                padding: "16px",
+                borderRadius: "20px",
+              }}
+            >
               <Typography textAlign="end">{name}</Typography>
             </Paper>
           </Grid>
-          <Grid item xs={2} md={1}>
-            <Paper>
+          <Grid item xs={3} sm={1} md={1}>
+            <Paper
+              sx={{
+                backgroundColor: "rgba(114, 182, 133, 1)",
+                padding: "16px",
+                borderRadius: "20px",
+              }}
+            >
               <Typography className={getPointColorClass(relationship)}>
                 {relationship}
               </Typography>
@@ -30,10 +42,17 @@ const Dialogue = ({ name, relationship, choices }) => {
       <Grid item xs={12}>
         <Grid container spacing={4}>
           {choices.map(({ text, points }, index) => (
-            <Grid key={`grid-dialgue-${index}`} item xs={12} md={6}>
-              <Paper>
+            <Grid key={`grid-dialgue-${index}`} item xs={12} sm={6}>
+              <Paper
+                sx={{
+                  backgroundColor: "rgba(114, 182, 133, 1)",
+                  padding: "16px",
+                  borderRadius: "20px",
+                  border: "1px solid rgba(42, 183, 81, 1)",
+                }}
+              >
                 <Grid container justifyContent="space-between">
-                  <Grid item xs={10}>
+                  <Grid item xs={9}>
                     <Typography
                       textAlign="start"
                       sx={{ textTransform: "uppercase" }}
@@ -41,7 +60,13 @@ const Dialogue = ({ name, relationship, choices }) => {
                       {text}
                     </Typography>
                   </Grid>
-                  <Grid item xs={2}>
+                  <Grid
+                    container
+                    item
+                    xs={2}
+                    alignContent="center"
+                    justifyContent="center"
+                  >
                     <Typography className={getPointColorClass(points)}>
                       {`${plusOrMinus(points)}${Math.abs(points)}`}
                     </Typography>
