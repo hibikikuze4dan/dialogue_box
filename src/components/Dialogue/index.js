@@ -21,7 +21,9 @@ const Dialogue = ({ name, relationship, choices }) => {
                 borderRadius: "20px",
               }}
             >
-              <Typography textAlign="end">{name}</Typography>
+              <Typography sx={{ fontWeight: "bold" }} textAlign="end">
+                {name}
+              </Typography>
             </Paper>
           </Grid>
           <Grid item xs={3} sm={1} md={1}>
@@ -32,7 +34,10 @@ const Dialogue = ({ name, relationship, choices }) => {
                 borderRadius: "20px",
               }}
             >
-              <Typography className={getPointColorClass(relationship)}>
+              <Typography
+                sx={{ fontWeight: "bold" }}
+                className={getPointColorClass(relationship)}
+              >
                 {relationship}
               </Typography>
             </Paper>
@@ -55,7 +60,7 @@ const Dialogue = ({ name, relationship, choices }) => {
                   <Grid item xs={9}>
                     <Typography
                       textAlign="start"
-                      sx={{ textTransform: "uppercase" }}
+                      sx={{ textTransform: "uppercase", fontWeight: "bold" }}
                     >
                       {text}
                     </Typography>
@@ -67,7 +72,10 @@ const Dialogue = ({ name, relationship, choices }) => {
                     alignContent="center"
                     justifyContent="center"
                   >
-                    <Typography className={getPointColorClass(points)}>
+                    <Typography
+                      sx={{ fontWeight: "bold" }}
+                      className={getPointColorClass(points)}
+                    >
                       {`${plusOrMinus(points)}${Math.abs(points)}`}
                     </Typography>
                   </Grid>

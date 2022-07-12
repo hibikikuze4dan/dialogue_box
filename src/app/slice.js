@@ -8,6 +8,7 @@ const initialState = {
     drawbacks: false,
   },
   hideUnselected: false,
+  dialogOpen: false,
 };
 
 export const slice = createSlice({
@@ -42,6 +43,9 @@ export const slice = createSlice({
     toggleHideUnselected: (state) => {
       state.hideUnselected = !state.hideUnselected;
     },
+    toggleDialogOpen: (state) => {
+      state.dialogOpen = !state.dialogOpen;
+    },
   },
 });
 
@@ -51,6 +55,7 @@ export const {
   addDrawback,
   removeDrawback,
   toggleHideUnselected,
+  toggleDialogOpen,
 } = slice.actions;
 
 export default slice.reducer;

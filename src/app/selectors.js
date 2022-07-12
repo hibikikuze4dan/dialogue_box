@@ -8,11 +8,35 @@ export const getDrawbacks = (state) => state.drawbacks ?? [];
 
 export const getHideUnselected = (state) => state.hideUnselected ?? false;
 
+export const getDialogOpen = (state) => state.dialogOpen ?? false;
+
 export const getSelectedChoices = createSelector(
   getDrawbacks,
   getPerks,
   (drawbacks, perks) => {
     return [...drawbacks, ...perks];
+  }
+);
+
+export const getBuildText = createSelector(
+  getDrawbacks,
+  getPerks,
+  (drawbacks, perks) => {
+    let text = "Dialogue Box Build:\n\nPerks:\n\n";
+    let points = 12;
+    perks.forEach((curr) => {
+      points = points + curr.cost;
+      text = `${text}${curr.title}: ${curr.cost} [${points}]\n\n`;
+      return points;
+    });
+    text = `${text}Drawbacks:\n\n`;
+    drawbacks.forEach((curr) => {
+      points = points + curr.cost;
+      text = `${text}${curr.title}: +${curr.cost} [${points}]\n\n`;
+      return points;
+    });
+    text = `${text}Points Left: ${points}`;
+    return text;
   }
 );
 

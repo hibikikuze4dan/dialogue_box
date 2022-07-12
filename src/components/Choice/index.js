@@ -15,7 +15,15 @@ import {
 import { getChoicesThatRequireACertainChoice, plusOrMinus } from "../../utils";
 
 const Choice = (props) => {
-  const { title, cost, description, requirements, exclude, section } = props;
+  const {
+    title,
+    cost,
+    description,
+    requirements,
+    exclude,
+    section,
+    displayChoice,
+  } = props;
   const dispatch = useDispatch();
   const disabled = useSelector(getChoiceDisabledFunction)(
     exclude,
@@ -28,16 +36,20 @@ const Choice = (props) => {
   const isPerksSection = section === "perks";
   const remove = isPerksSection ? removePerk : removeDrawback;
   const add = isPerksSection ? addPerk : addDrawback;
-  const dispatchFunc = () => {
-    if (selected) {
-      if (choicesThatRequireThisChoice.length)
-        choicesThatRequireThisChoice.forEach((choice) =>
-          dispatch(remove(choice))
-        );
-      return dispatch(remove(props));
-    }
-    dispatch(add(props));
-  };
+  const dispatchFunc = displayChoice
+    ? null
+    : () => {
+        if (selected) {
+          if (choicesThatRequireThisChoice.length)
+            choicesThatRequireThisChoice.forEach((choice) =>
+              dispatch(remove(choice))
+            );
+          return dispatch(remove(props));
+        }
+        dispatch(add(props));
+      };
+  const buttonBackgroundColor =
+    selected && !displayChoice ? "blue" : "rgba(114, 182, 133, 1)";
 
   return hideUnselected && !selected ? null : (
     <Grid sx={{ height: "100%" }} container>
@@ -51,11 +63,11 @@ const Choice = (props) => {
           border: "2px solid rgba(114, 142, 120, 1)",
           borderRadius: "16px",
           textTransform: "none",
-          color: "black",
+          color: selected && !displayChoice ? "white" : "black",
           overflow: "hidden",
-          backgroundColor: selected ? "blue" : "rgba(114, 182, 133, 1)",
+          backgroundColor: buttonBackgroundColor,
           "&:hover": {
-            backgroundColor: selected ? "blue" : "rgba(114, 182, 133, 1)",
+            backgroundColor: buttonBackgroundColor,
           },
         }}
       >
@@ -65,7 +77,7 @@ const Choice = (props) => {
           </Grid>
           <Grid container item xs={12} justifyContent="space-between">
             <Grid item>
-              <Typography>{title}</Typography>
+              <Typography sx={{ fontWeight: "bold" }}>{title}</Typography>
             </Grid>
             <Grid item xs={2}>
               <Box
@@ -74,7 +86,7 @@ const Choice = (props) => {
                   borderRadius: "16px",
                 }}
               >
-                <Typography>
+                <Typography align="center" sx={{ fontWeight: "bold" }}>
                   {plusOrMinus(cost)}
                   {Math.abs(cost)}
                 </Typography>
@@ -83,19 +95,28 @@ const Choice = (props) => {
           </Grid>
           <Grid item xs={12}>
             {requirements && (
-              <Typography variant="body2">{`Requires ${
+              <Typography align="center" variant="body2">{`Requires ${
                 requirements[requirements.length - 1]
               }`}</Typography>
             )}
-            <Typography variant="body2">{description}</Typography>
+            <Typography align="center" variant="body2">
+              {description}
+            </Typography>
             {exclude && (
-              <Typography variant="body2">{`Cannot be taken with ${exclude}`}</Typography>
+              <Typography
+                align="center"
+                variant="body2"
+              >{`Cannot be taken with ${exclude}`}</Typography>
             )}
           </Grid>
         </Grid>
       </Button>
     </Grid>
   );
+};
+
+Choice.defaultProps = {
+  displayChoice: false,
 };
 
 export default Choice;

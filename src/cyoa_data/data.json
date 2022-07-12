@@ -71,16 +71,16 @@
           "type": "cyoa_text",
           "text": [
             "A quick glance up, and you also see that zero next to the question marks is now a green two. You wonder...",
-            "With a thought. you dispel the options. Time resumes, and you don't hear your own voice. The jogger gives you another smile, then sets off down the street.",
+            "With a thought, you dispel the options. Time resumes, and you don't hear your own voice. The jogger gives you another smile, then sets off down the street.",
             "You are now in possession of the Dialogue box. But it can do so much more than what you've just seen. For free, it can do these things, but with the points you've got, you can buy even more. You have <span class=\"red\">Twelve points</span> to play with. "
           ],
           "subcontent": [
             [
               "It can record the names of anyone you speak to, replacing that line of question marks.",
-              "It only fills in the name once they tell it to you, but that will stick. Last names and middle names wil also be added as they're learned. and it can be changed to any nickname you know them by at will. "
+              "It only fills in the name once they tell it to you, but that will stick. Last names and middle names will also be added as they're learned. and it can be changed to any nickname you know them by at will. "
             ],
             [
-              "If you have a high enough green score, you can ask people to do things. The higher the score, the more you can ask for. However, doing this lowers the green score, and some people have things that also make certain requests harder than othors. For example, asking your sister for a blowjob will have a Family debuff, requiring more points than if you asked your friend for one."
+              "If you have a high enough green score, you can ask people to do things. The higher the score, the more you can ask for. However, doing this lowers the green score, and some people have things that also make certain requests harder than others. For example, asking your sister for a blowjob will have a Family debuff, requiring more points than if you asked your friend for one."
             ]
           ]
         }
@@ -100,49 +100,49 @@
           {
             "title": "Emotional",
             "cost": -1,
-            "description": "Beside the spech options is a pie chart that displays the relative strength of the emotions they were feeling at the moment time stopped. How angry they are, versus how horny, versus how happy. The more it dominates their psyche in that moment, the larger that piece of the pie. ",
+            "description": "Beside the speech options is a pie chart that displays the relative strength of the emotions they were feeling at the moment time stopped. How angry they are, versus how horny, versus how happy. The more it dominates their psyche in that moment, the larger that piece of the pie. ",
             "requirements": null,
             "exclude": null
           },
           {
             "title": "Punchy",
             "cost": -1,
-            "description": "You do not want to stop time for every single minor interaction. To that end. you may select up to ten sentences that you can just have loaded and ready to go. \"Hello\", \"How's it going\". \"love your shirt\", whatever you like. You can just toss it out as easy as that without stopping time or having to even move your mouth. ",
+            "description": "You do not want to stop time for every single minor interaction. To that end, you may select up to ten sentences that you can just have loaded and ready to go. \"Hello\", \"How's it going\", \"love your shirt\", whatever you like. You can just toss it out as easy as that without stopping time or having to even move your mouth. ",
             "requirements": null,
             "exclude": null
           },
           {
             "title": "Interest",
             "cost": -1,
-            "description": "There is now a slider beside your options that displays how attractive the person you're speaking to finds you. You can rotate between different slidors to determine how much they like you as a friend, a lover, a sexual partner, a coworker, or how they think of your performance in a particular role they've seen you do, like as a retail worker or celebrity. ",
+            "description": "There is now a slider beside your options that displays how attractive the person you're speaking to finds you. You can rotate between different sliders to determine how much they like you as a friend, a lover, a sexual partner, a coworker, or how they think of your performance in a particular role they've seen you do, like as a retail worker or celebrity. ",
             "requirements": null,
             "exclude": null
           },
           {
             "title": "Stat Boost",
             "cost": -3,
-            "description": "You can spend gathered green points to improve how attracted someone is to you. You can only improve one slider at a time, so be smart about where you put these points. This is also not cheap, as jumping from a 5 to a 6 on the friendship slider requires 1.000 green points. ",
+            "description": "You can spend gathered green points to improve how attracted someone is to you. You can only improve one slider at a time, so be smart about where you put these points. This is also not cheap, as jumping from a 5 to a 6 on the friendship slider requires 1,000 green points. ",
             "requirements": ["Interest"],
             "exclude": null
           },
           {
             "title": "Bonuses",
             "cost": -5,
-            "description": "Each porson now has four to oight options that you can purchase These are one time things that you cen buy to alter something abaut them. Theso are, of courae. bought with green points and not everyone gets the same options. For example, you might have the option to make it so your gym buddy gains muscie at 1.ix speed, or you might bo able to make your coworker a bit taller. These options start relatively cheap. bul as you buy them they get more expensive and mare intricate You might start off adding a few inches to their height with 200 green points and end ap giving them wings with 100,000 green points ",
+            "description": "Each porson now has four to eight options that you can purchase These are one time things that you cen buy to alter something abaut them. These are, of courae. bought with green points and not everyone gets the same options. For example, you might have the option to make it so your gym buddy gains muscie at 1.ix speed, or you might bo able to make your coworker a bit taller. These options start relatively cheap. but as you buy them they get more expensive and mare intricate You might start off adding a few inches to their height with 200 green points and end ap giving them wings with 100,000 green points ",
             "requirements": ["Interest", "Stat Boost"],
             "exclude": null
           },
           {
             "title": "External",
             "cost": -3,
-            "description": "Normally. the only way you could increase your green points is through the Dialogue box. This allows you to improve your score via just being nice. considerate, and going beyond their expectations for you. ",
+            "description": "Normally. the only way you could increase your green points is through the Dialogue box. This allows you to improve your score via just being nice, considerate, and going beyond their expectations for you. ",
             "requirements": null,
             "exclude": null
           },
           {
             "title": "Start Up",
             "cost": -5,
-            "description": "Now since you just got the dialogue box, everyone you meet will start at zero green points. This option lets you import your relationships with people you've already talked. Your parents and good friends might start of with a green score in the thousands, for exampte. ",
+            "description": "Now since you just got the dialogue box, everyone you meet will start at zero green points. This option lets you import your relationships with people you've already talked. Your parents and good friends might start of with a green score in the thousands, for example. ",
             "requirements": ["External"],
             "exclude": null
           },
@@ -203,7 +203,7 @@
           {
             "title": "Vocal",
             "cost": -2,
-            "description": "You have a Rolodex of voices. Any accent, any tone, any voice you've ever heard. You can search through them like a database. but the ones you remember more vividly are easier to find. Then, you can apply them to whatever it is you want to say. Maybe you want to perfectly imitate Samuel L. Jackson, or a porn actress. It's up to you. Your tone, accent, and voice will alter how many green points you get from saying it. ",
+            "description": "You have a Rolodex of voices. Any accent, any tone, any voice you've ever heard. You can search through them like a database, but the ones you remember more vividly are easier to find. Then, you can apply them to whatever it is you want to say. Maybe you want to perfectly imitate Samuel L. Jackson, or a porn actress. It's up to you. Your tone, accent, and voice will alter how many green points you get from saying it. ",
             "requirements": null,
             "exclude": null
           },
@@ -231,7 +231,7 @@
           {
             "title": "Mobility II",
             "cost": -2,
-            "description": "While time is frozen, you are able to move your entire body. but you cannot move more than a meter from where you were. ",
+            "description": "While time is frozen, you are able to move your entire body, but you cannot move more than a meter from where you were. ",
             "requirements": ["Mobility I"],
             "exclude": null
           },
@@ -266,14 +266,14 @@
           {
             "title": "NPC",
             "cost": -2,
-            "description": "People you talk to wil not stop talking to you until you stop talking to them. Even if they're angry, uncomfortable. or whatever etse, they will continue to stay within earshot and respond to what you say. Just be careful, as riling someone up too much can cause them to attack you without violating this option's rules. ",
+            "description": "People you talk to wil not stop talking to you until you stop talking to them. Even if they're angry, uncomfortable, or whatever else, they will continue to stay within earshot and respond to what you say. Just be careful, as riling someone up too much can cause them to attack you without violating this option's rules. ",
             "requirements": null,
             "exclude": null
           },
           {
             "title": "Nice!",
             "cost": -2,
-            "description": "People will no longer want to leave and be unable. Instead. they are cager to talk to you and want to continue talking as long as you do. They may express this in a variety of ways. They might still hate you, but find a way to justify their enjoyment of your conversations. This enthusiasm does not increase your green score with a person. ",
+            "description": "People will no longer want to leave and be unable. Instead, they are cager to talk to you and want to continue talking as long as you do. They may express this in a variety of ways. They might still hate you, but find a way to justify their enjoyment of your conversations. This enthusiasm does not increase your green score with a person. ",
             "requirements": ["NPC"],
             "exclude": null
           },
@@ -287,7 +287,7 @@
           {
             "title": "More Choices",
             "cost": -4,
-            "description": "When you look over an option, you will see three possible responses that the person you're speaking to might have to your words. Only one of them will be reality. You can choose one of them to be reality. but it will cost you green points with that person. You could also roll the dice, maybe you'll get lucky. ",
+            "description": "When you look over an option, you will see three possible responses that the person you're speaking to might have to your words. Only one of them will be reality. You can choose one of them to be reality, but it will cost you green points with that person. You could also roll the dice, maybe you'll get lucky. ",
             "requirements": null,
             "exclude": null
           },
@@ -301,7 +301,7 @@
           {
             "title": "Versatile Ear",
             "cost": -2,
-            "description": "Anything someone says to you will be translated into a language that you can understand. Even things like sign language will be totally clear to you. even if you can't reply in the same language. ",
+            "description": "Anything someone says to you will be translated into a language that you can understand. Even things like sign language will be totally clear to you, even if you can't reply in the same language. ",
             "requirements": null,
             "exclude": null
           }
