@@ -334,6 +334,22 @@
             "requirements": null,
             "exclude": null,
             "imgSrc": "https://i.imgur.com/ZlniEY0.png"
+          },
+          {
+            "title": "Self Talk",
+            "cost": -3,
+            "description": "Normally, the dialogue box only applies when conversing with another creature that can both hear and understand you. This power changes it so that even when you talk to yourself you'll be using the box, making you mute when you're in the menu. This allows you to use raise your green score, improving your own self image and convincing yourself to do things you might otherwise be too lazy to do. Any other upgrades apply in the same way. ",
+            "requirements": null,
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/6sDMPt1.png"
+          },
+          {
+            "title": "Tone Change",
+            "cost": -2,
+            "description": "Normally, you'll say whatever you choose with whatever tone you think works best. But this will amplify it, giving whatever you say the most appropriate tone for what you're going for. If you want to come off kind, but they'll see your normal kind tone as patronizing, it'll be redone to be more...easily received.",
+            "requirements": null,
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/32zI39Q.png"
           }
         ]
       },
