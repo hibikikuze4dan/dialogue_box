@@ -12,7 +12,9 @@ const Opening = () => {
   return (
     <Grid container spacing={4} sx={{ paddingBottom: "48px" }}>
       <Grid zeroMinWidth item xs={12}>
-        <Typography variant="h2">{title}</Typography>
+        <Typography sx={{ fontWeight: "bold" }} variant="h2">
+          {title}
+        </Typography>
       </Grid>
       {content.map(({ type, ...other }, index) => (
         <Grid zeroMinWidth item xs={12}>
