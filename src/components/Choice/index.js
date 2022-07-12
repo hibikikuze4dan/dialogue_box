@@ -1,4 +1,11 @@
-import { Box, Button, Grid, Paper, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  CircularProgress,
+  Grid,
+  Paper,
+  Typography,
+} from "@mui/material";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -23,6 +30,7 @@ const Choice = (props) => {
     exclude,
     section,
     displayChoice,
+    imgSrc,
   } = props;
   const dispatch = useDispatch();
   const disabled = useSelector(getChoiceDisabledFunction)(
@@ -60,6 +68,7 @@ const Choice = (props) => {
         fullWidth
         sx={{
           alignItems: "baseline",
+          padding: 0,
           border: "2px solid rgba(114, 142, 120, 1)",
           borderRadius: "16px",
           textTransform: "none",
@@ -71,11 +80,24 @@ const Choice = (props) => {
           },
         }}
       >
-        <Grid container spacing={4}>
+        <Grid container spacing={2}>
           <Grid item xs={12}>
-            {/* IMAGE GOES HERE */}
+            <div style={{ height: "275px", backgroundColor: "black" }}>
+              <img
+                style={{ width: "100%", height: "275px", maxWidth: "300px" }}
+                src={imgSrc}
+                alt={title + "image"}
+                loader={<CircularProgress />}
+              />
+            </div>
           </Grid>
-          <Grid container item xs={12} justifyContent="space-between">
+          <Grid
+            container
+            item
+            xs={12}
+            justifyContent="space-between"
+            sx={{ margin: "0 8px" }}
+          >
             <Grid item>
               <Typography sx={{ fontWeight: "bold" }}>{title}</Typography>
             </Grid>
@@ -93,7 +115,7 @@ const Choice = (props) => {
               </Box>
             </Grid>
           </Grid>
-          <Grid item xs={12}>
+          <Grid item xs={12} sx={{ margin: "0 8px 16px 8px" }}>
             {requirements && (
               <Typography align="center" variant="body2">{`Requires ${
                 requirements[requirements.length - 1]

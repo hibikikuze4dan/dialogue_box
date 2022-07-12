@@ -95,91 +95,104 @@
             "cost": -1,
             "description": "Normally. those question marks will stay until you learn the name of the person you're speaking to. With this. you will know someone's name the moment you use the dialogue box on them. ",
             "requirements": null,
-            "exclude": "Who?"
+            "exclude": "Who?",
+            "imgSrc": "https://i.imgur.com/va15jyd.png"
           },
           {
             "title": "Emotional",
             "cost": -1,
             "description": "Beside the speech options is a pie chart that displays the relative strength of the emotions they were feeling at the moment time stopped. How angry they are, versus how horny, versus how happy. The more it dominates their psyche in that moment, the larger that piece of the pie. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/YRZdy5P.png"
           },
           {
             "title": "Punchy",
             "cost": -1,
             "description": "You do not want to stop time for every single minor interaction. To that end, you may select up to ten sentences that you can just have loaded and ready to go. \"Hello\", \"How's it going\", \"love your shirt\", whatever you like. You can just toss it out as easy as that without stopping time or having to even move your mouth. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/zLalLsb.png"
           },
           {
             "title": "Interest",
             "cost": -1,
             "description": "There is now a slider beside your options that displays how attractive the person you're speaking to finds you. You can rotate between different sliders to determine how much they like you as a friend, a lover, a sexual partner, a coworker, or how they think of your performance in a particular role they've seen you do, like as a retail worker or celebrity. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/oFLvoCJ.png"
           },
           {
             "title": "Stat Boost",
             "cost": -3,
             "description": "You can spend gathered green points to improve how attracted someone is to you. You can only improve one slider at a time, so be smart about where you put these points. This is also not cheap, as jumping from a 5 to a 6 on the friendship slider requires 1,000 green points. ",
             "requirements": ["Interest"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/z3dBtoJ.png"
           },
           {
             "title": "Bonuses",
             "cost": -5,
             "description": "Each porson now has four to eight options that you can purchase These are one time things that you cen buy to alter something abaut them. These are, of courae. bought with green points and not everyone gets the same options. For example, you might have the option to make it so your gym buddy gains muscie at 1.ix speed, or you might bo able to make your coworker a bit taller. These options start relatively cheap. but as you buy them they get more expensive and mare intricate You might start off adding a few inches to their height with 200 green points and end ap giving them wings with 100,000 green points ",
             "requirements": ["Interest", "Stat Boost"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/GHr43Fc.png"
           },
           {
             "title": "External",
             "cost": -3,
             "description": "Normally. the only way you could increase your green points is through the Dialogue box. This allows you to improve your score via just being nice, considerate, and going beyond their expectations for you. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/jI7zY8A.png"
           },
           {
             "title": "Start Up",
             "cost": -5,
             "description": "Now since you just got the dialogue box, everyone you meet will start at zero green points. This option lets you import your relationships with people you've already talked. Your parents and good friends might start of with a green score in the thousands, for example. ",
             "requirements": ["External"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/cme1znM.png"
           },
           {
             "title": "Rock Bottom",
             "cost": -4,
             "description": "You cannot go any lower than zero green points through the dialogue box alone. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/PFm1t18.png"
           },
           {
             "title": "Capacity I",
             "cost": -1,
             "description": "You now have eight options instead of four when talking to someone. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/elB5cE7.png"
           },
           {
             "title": "Capacity II",
             "cost": -1,
             "description": "You now have sixteen options instead of eight when talking to someone. ",
             "requirements": ["Capacity I"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/tl13Pj7.png"
           },
           {
             "title": "Capacity III",
             "cost": -1,
             "description": "You now have thirty-two options instead of sixteen when talking to someone. ",
             "requirements": ["Capacity I", "Capacity II"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/7SXq0h3.png"
           },
           {
             "title": "Build Your Own",
             "cost": -5,
             "description": "You have thirty-two options each time you open the dialogue box, but you can also create your own sentence out of thin air. This sentence will be accompanied by an appropriate green number. ",
             "requirements": ["Capacity I", "Capacity II", "Capacity III"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/OautigM.png"
           },
           {
             "title": "Non-Sequitur",
@@ -191,119 +204,136 @@
               "Capacity III",
               "Build Your Own"
             ],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/33QRVq9.png"
           },
           {
             "title": "Speech",
             "cost": -2,
             "description": "Instead of a single sentence, options can be up to a paragraph in length. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/HOkhmpX.png"
           },
           {
             "title": "Vocal",
             "cost": -2,
             "description": "You have a Rolodex of voices. Any accent, any tone, any voice you've ever heard. You can search through them like a database, but the ones you remember more vividly are easier to find. Then, you can apply them to whatever it is you want to say. Maybe you want to perfectly imitate Samuel L. Jackson, or a porn actress. It's up to you. Your tone, accent, and voice will alter how many green points you get from saying it. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/VPo2MjO.png"
           },
           {
             "title": "Soundboard",
             "cost": -1,
             "description": "Instead of just having sentences pop up as options for you to say, you will also have a few noises you've heard that you can mimic. You can repeat memes flawlessly, or speak small snatches of music. The sound can only be as long as a sentence would take to say. so you're not getting all of bohemian rhapsody out in one go. ",
             "requirements": ["Vocal"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/Ywmbxuc.png"
           },
           {
             "title": "On/Off",
             "cost": -3,
             "description": "You can toggle the text box on or off. When it's off, you can speak to people normally, without time stopping or seeing how they feel about you. Just be careful, because turning off the Dialogue box will invert your eye colour until you turn it back on. Might need some coloured contacts to not get some weird looks. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/kWOSfyi.png"
           },
           {
             "title": "Mobility I",
             "cost": -1,
             "description": "While time is frozen, you are able to move everything from your torso upwards. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/dJJRCHI.png"
           },
           {
             "title": "Mobility II",
             "cost": -2,
             "description": "While time is frozen, you are able to move your entire body, but you cannot move more than a meter from where you were. ",
             "requirements": ["Mobility I"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/9qwnYzQ.png"
           },
           {
             "title": "Mobility III",
             "cost": -1,
             "description": "While time is frozen, you are able to move your whole body, but you cannot leave the building you froze time in, or enter any buildings you were not already in. ",
             "requirements": ["Mobility I", "Mobility II"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/IRpOl5u.png"
           },
           {
             "title": "Honesty Box",
             "cost": -4,
             "description": "When you use the dialogue box on someone, they will not lie while responding to you. This wil make all questions you ask them require a certain threshold of green points, but you'll always get an honest answer. They will understand that they gave you an honest answer, but they won't realise they've been compelled to. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/KlzJBkQ.png"
           },
           {
             "title": "Psychic",
             "cost": -2,
             "description": "You can have a conversation with anyone you can see. They do not need to be within earshot. Your words will be beamed into their head, and their responses beamed back into yours. Nobody will hear you two conversing. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/raRAe7B.png"
           },
           {
             "title": "Ranger",
             "cost": -2,
             "description": "You don't even need to see the person, only know they exist. ",
             "requirements": ["Psychic"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/94aya33.png"
           },
           {
             "title": "NPC",
             "cost": -2,
             "description": "People you talk to wil not stop talking to you until you stop talking to them. Even if they're angry, uncomfortable, or whatever else, they will continue to stay within earshot and respond to what you say. Just be careful, as riling someone up too much can cause them to attack you without violating this option's rules. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/BZSYORY.png"
           },
           {
             "title": "Nice!",
             "cost": -2,
             "description": "People will no longer want to leave and be unable. Instead, they are cager to talk to you and want to continue talking as long as you do. They may express this in a variety of ways. They might still hate you, but find a way to justify their enjoyment of your conversations. This enthusiasm does not increase your green score with a person. ",
             "requirements": ["NPC"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/qurdtde.png"
           },
           {
             "title": "Crowd",
             "cost": -3,
             "description": "Instead of only being able to talk to one person at a time, you may talk to as many people as are within earshot. Some kind of voice projector or the option Psychic wil help. (However, the option Ranger will not let you talk to more than one person). The green number of this group will be the combined opinions of everyone in it. Giving commands to a whole group is compoundingly more expensive than giving it to just one person, and debuffs become significantly more of a problem. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/qk3NIdK.png"
           },
           {
             "title": "More Choices",
             "cost": -4,
             "description": "When you look over an option, you will see three possible responses that the person you're speaking to might have to your words. Only one of them will be reality. You can choose one of them to be reality, but it will cost you green points with that person. You could also roll the dice, maybe you'll get lucky. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/D2M1cqA.png"
           },
           {
             "title": "Internationale",
             "cost": -2,
             "description": "Whatever you say with the dialogue box will translate itself into whatever language the person you're speaking to best understands. This also covers sign language, somehow. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/9HAXzIr.png"
           },
           {
             "title": "Versatile Ear",
             "cost": -2,
             "description": "Anything someone says to you will be translated into a language that you can understand. Even things like sign language will be totally clear to you, even if you can't reply in the same language. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/ZlniEY0.png"
           }
         ]
       },
@@ -315,84 +345,96 @@
             "cost": 1,
             "description": "The dialogue box will only show the name of the person you're talking to as long as you remember it. If you forget it, it will turn back into question marks or be replaced by a nickname that you do remember. ",
             "requirements": null,
-            "exclude": "Nametag"
+            "exclude": "Nametag",
+            "imgSrc": "https://i.imgur.com/qEyXFZx.png"
           },
           {
             "title": "What?",
             "cost": 3,
             "description": "Any bystanders who are not involved in your conversation can see it for the weirdness it is. Of you silently going up to people, and them responding as if you said something. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/ECaSYRu.png"
           },
           {
             "title": "How?",
             "cost": 5,
             "description": "If you attempt to lie to someone using the dialogue box, reality will be altered so that what you said is true in the worst way. For example, if you tell a girl that you have millions of dollars, you'll receive some very interesting calls from the police about how you acquired all that stolen moncy. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/rhtc6dG.png"
           },
           {
             "title": "Why?",
             "cost": 5,
             "description": "One of your options has more to it that doesn't show up. So it might be a harmless sentence asking how their day is going. but when you select it and say it out loud, you call them a snivelling cunt alongside what you meant to say. This means that the green score displayed on that option will be inverted, reducing your score instead. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/VFIpkCl.png"
           },
           {
             "title": "When?",
             "cost": 3,
             "description": "The dialogue box now requires updates with the irritating regularity of a Microsoft product. You will need to wait for random amounts of time as it downloads updates. During this time, you will be unable to speak to people. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/hMvOAJ9.png"
           },
           {
             "title": "Stuck",
             "cost": 1,
             "description": "Once you open the dialogue box, you cannot close it until you've selected an option. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/RJr0bae.png"
           },
           {
             "title": "Blurred Vision",
             "cost": 2,
             "description": "50% of the options will not have a score displayed. If you say them, you won't know how much they will improve or worsen your new relationship. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/tTsVjXv.png"
           },
           {
             "title": "Blind",
             "cost": 2,
             "description": "None of the options display a score. You will have to use your own intuition to figure out if someone will react favourably to your comments. ",
             "requirements": ["Blurred Vision"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/lrteGN3.png"
           },
           {
             "title": "Returned Favor",
             "cost": 4,
             "description": "If you use the dialogue box on someone, they will be able to use it right back in response. To you, of course. it will seem as if they're talking normally, but they can use this the same way you do. Thus they can improve or degrade your opinion of them, and get you to do things they'd like from you, if your green score is high enough. ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/zh0QPlg.png"
           },
           {
             "title": "Minigame",
             "cost": 3,
             "description": "Evory time you try to say somothing. you will have to comptete a minigame. The more green points you would gain, the wordier the response. or the more youre asking from that person. the harder the minigame will be. If you complete it normally, you get the listed number of green points ar they will do as you've asked If you perform poorly, you get fewer points or even negative points and they might resist some of what you ask. If you fail you will say nothing If you do superhumanly well. you will get bonus green points and they will go above and beyond what you asked of them. These minigames can range from a rhythm game to solving a rubix cube ",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/cPGP8gC.png"
           },
           {
             "title": "Degrade",
             "cost": 3,
             "description": "Normally. the only way you could lose green points is via making mistakes in the Dialogue box. This changes that. Now you can lose green points by being an asshole to that person. Being rude, hurtful, creepy, or otherwise a person they don't want to be around will lower your green score.",
             "requirements": null,
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/dlGHHAD.png"
           },
           {
             "title": "Timeout",
             "cost": 1,
             "description": "The longer someone goes without speaking to you, the more green points will fade. This loss is in tandem with how well they remember you, so some may lose green points rapidly while others may cling to your memory for many years. ",
             "requirements": ["Degrade"],
-            "exclude": null
+            "exclude": null,
+            "imgSrc": "https://i.imgur.com/UFrgTes.png"
           }
         ]
       }
