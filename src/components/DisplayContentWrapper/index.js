@@ -13,14 +13,18 @@ const DisplayContentWrapper = ({ title, children }) => {
       <Grid item xs={12}>
         <Button
           size="large"
-          variant="outlined"
+          variant="contained"
           onClick={() => toggleOpen(!isOpen)}
           sx={{
             border: "2px solid rgba(114, 142, 120, 1) !important",
             borderRadius: "16px",
+            backgroundColor: "#8fe5a6ff",
             textTransform: "none",
             color: "black",
             marginLeft: isDrawbacks && isMdUp ? "8px" : "0px",
+            "&:hover": {
+              backgroundColor: "inherit",
+            },
           }}
         >
           <Typography variant="h3">{title}</Typography>
