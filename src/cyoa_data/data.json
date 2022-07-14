@@ -133,7 +133,7 @@
           {
             "title": "Bonuses",
             "cost": -5,
-            "description": "Each porson now has four to eight options that you can purchase These are one time things that you cen buy to alter something abaut them. These are, of courae. bought with green points and not everyone gets the same options. For example, you might have the option to make it so your gym buddy gains muscie at 1.ix speed, or you might bo able to make your coworker a bit taller. These options start relatively cheap. but as you buy them they get more expensive and mare intricate You might start off adding a few inches to their height with 200 green points and end ap giving them wings with 100,000 green points ",
+            "description": "Each person now has four to eight options that you can purchase These are one time things that you can buy to alter something about them. These are, of course, bought with green points and not everyone gets the same options. For example, you might have the option to make it so your gym buddy gains muscle at 1.1x speed, or you might be able to make your coworker a bit taller. These options start relatively cheap, but as you buy them they get more expensive and more intricate You might start off adding a few inches to their height with 200 green points and end up giving them wings with 100,000 green points.",
             "requirements": ["Interest", "Stat Boost"],
             "exclude": null,
             "imgSrc": "https://i.imgur.com/GHr43Fc.png"
@@ -298,7 +298,7 @@
           {
             "title": "Nice!",
             "cost": -2,
-            "description": "People will no longer want to leave and be unable. Instead, they are cager to talk to you and want to continue talking as long as you do. They may express this in a variety of ways. They might still hate you, but find a way to justify their enjoyment of your conversations. This enthusiasm does not increase your green score with a person. ",
+            "description": "People will no longer want to leave and be unable. Instead, they are eager to talk to you and want to continue talking as long as you do. They may express this in a variety of ways. They might still hate you, but find a way to justify their enjoyment of your conversations. This enthusiasm does not increase your green score with a person. ",
             "requirements": ["NPC"],
             "exclude": null,
             "imgSrc": "https://i.imgur.com/qurdtde.png"
@@ -375,7 +375,7 @@
           {
             "title": "How?",
             "cost": 5,
-            "description": "If you attempt to lie to someone using the dialogue box, reality will be altered so that what you said is true in the worst way. For example, if you tell a girl that you have millions of dollars, you'll receive some very interesting calls from the police about how you acquired all that stolen moncy. ",
+            "description": "If you attempt to lie to someone using the dialogue box, reality will be altered so that what you said is true in the worst way. For example, if you tell a girl that you have millions of dollars, you'll receive some very interesting calls from the police about how you acquired all that stolen money. ",
             "requirements": null,
             "exclude": null,
             "imgSrc": "https://i.imgur.com/rhtc6dG.png"
@@ -431,7 +431,7 @@
           {
             "title": "Minigame",
             "cost": 3,
-            "description": "Evory time you try to say somothing. you will have to comptete a minigame. The more green points you would gain, the wordier the response. or the more youre asking from that person. the harder the minigame will be. If you complete it normally, you get the listed number of green points ar they will do as you've asked If you perform poorly, you get fewer points or even negative points and they might resist some of what you ask. If you fail you will say nothing If you do superhumanly well. you will get bonus green points and they will go above and beyond what you asked of them. These minigames can range from a rhythm game to solving a rubix cube ",
+            "description": "Evory time you try to say somothing. you will have to comptete a minigame. The more green points you would gain, the wordier the response. or the more youre asking from that person. the harder the minigame will be. If you complete it normally, you get the listed number of green points and they will do as you've asked If you perform poorly, you get fewer points or even negative points and they might resist some of what you ask. If you fail you will say nothing If you do superhumanly well. you will get bonus green points and they will go above and beyond what you asked of them. These minigames can range from a rhythm game to solving a rubix cube ",
             "requirements": null,
             "exclude": null,
             "imgSrc": "https://i.imgur.com/cPGP8gC.png"
