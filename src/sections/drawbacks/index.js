@@ -11,12 +11,15 @@ const Perks = () => {
     <DisplayContentWrapper title={title}>
       <Grid container spacing={4}>
         {choices.map((choice, index) => (
-          <Grid item xs={12} sm={6} md={4} lg={3}>
-            <Choice
-              section="drawbacks"
-              {...choice}
-              key={`choice-perks-${index}`}
-            />
+          <Grid
+            key={`choice-drawbacks-${index}`}
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            lg={3}
+          >
+            <Choice section="drawbacks" {...choice} />
           </Grid>
         ))}
       </Grid>

@@ -17,11 +17,11 @@ const Opening = () => {
         </Typography>
       </Grid>
       {content.map(({ type, ...other }, index) => (
-        <Grid zeroMinWidth item xs={12}>
+        <Grid key={`cyoatext-opening-${index}`} zeroMinWidth item xs={12}>
           {type === "cyoa_text" ? (
-            <CyoaText key={`cyoatext-opening-${index}`} {...other} />
+            <CyoaText {...other} />
           ) : (
-            <Dialogue key={`dialogue-opening-${index}`} {...other} />
+            <Dialogue {...other} />
           )}
         </Grid>
       ))}
